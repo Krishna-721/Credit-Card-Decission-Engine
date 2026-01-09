@@ -1,10 +1,69 @@
 # Python
-# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Virtual env
+# Virtual Environment
 venv/
-.env
+env/
+ENV/
+.venv
 
-C:\Users\Admin\OneDrive\Desktop\Credit-Card\backend\engine\__pycache__
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Dependencies
+.npm
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.project
+.pydevproject
+.settings/
+
+# Mac
+.AppleDouble
+.LSOverride
+
