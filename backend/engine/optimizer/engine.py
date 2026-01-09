@@ -1,15 +1,6 @@
 from engine.optimizer.scorer import score_rule
 
 def optimize(spend_map, cards, reward_rules):
-    """
-    Args:
-        spend_map: {category_id: spend_amount}
-        cards: list of card dicts
-        reward_rules: {card_id: {category_id: rule}}
-
-    Returns:
-        {category_id: best_card_result}
-    """
 
     recommendations = {}
 

@@ -1,6 +1,8 @@
 import psycopg2
-from psycopg2.extras import RealDictCursor
+from psycopg2.extras import RealDictCursor, register_uuid
 from django.conf import settings
+
+register_uuid()
 
 def get_conn():
     return psycopg2.connect(
